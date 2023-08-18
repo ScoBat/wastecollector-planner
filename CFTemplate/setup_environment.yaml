@@ -923,7 +923,7 @@ Resources:
         Properties: 
           CalculatorName:  !Join [ "." , [ "route.calculator", !Ref AWS::StackName ]]
           DataSource: 'Here'
-          Description: 'Ednpoint for route calculation'
+          Description: 'Endpoint for route calculation'
           
 
   RouteMap:
@@ -1001,7 +1001,7 @@ Resources:
 
 Outputs:
     CalculatorName: 
-        Description: "Route CalculatorName"
+        Description: "Route Calculator Name"
         Value: !Ref RouteCalculator
     MapName: 
         Description: "Map Name"
